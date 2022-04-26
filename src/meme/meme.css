@@ -1,0 +1,45 @@
+@font-face {
+  font-family: Hey Comic;
+  src: url(hey-comic.ttf);
+}
+html {
+    background-color:#121212;
+    font-family:Hey Comic;
+    overflow:hidden;
+}
+
+#meme {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.memeBtn {
+    border-radius:16px;
+    height:32px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    background-color: #121212;
+    color: white;
+    padding: 4px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family:Hey Comic;
+}
+
+.memeBtn:hover {
+    border-radius:16px;
+    height:32px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #121212;
+    background-color: white;
+    color: #121212;
+    padding: 4px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family:Hey Comic;
+}
